@@ -62,37 +62,37 @@ solution.ipynb
 └── Conclusion
 
 
-Requirements
+## Requirements
 
-Python 3.7+
-Libraries: pandas, numpy, scikit-learn, matplotlib, seaborn, shap
+- Python 3.7+
+- Libraries: pandas, numpy, scikit-learn, matplotlib, seaborn, shap
 
-How to Run?
+## How to Run?
 
-    Clone the repository
+    - Clone the repository
 
-    Install dependencies:
+    - Install dependencies:
 
         pip install -r requirements.txt
 
-    Update the dataset path inside the notebook
+    - Update the dataset path inside the notebook
 
-    Run all cells in the Jupyter notebook sequentially
+    - Run all cells in the Jupyter notebook sequentially
 
-Conclusion
+## Conclusion
 
-    The Random Forest model achieved 95% accuracy, demonstrating strong predictive capability for mobile price ranges. RAM was identified as the most significant predictor through SHAP analysis.
+    - The Random Forest model achieved 95% accuracy, demonstrating strong predictive capability for mobile price ranges. RAM was identified as the most significant predictor through SHAP analysis.
 
-Future Enhancements
+## Future Enhancements
 
-    Explore more complex models like Gradient Boosting (XGBoost, LightGBM) or Neural Networks.
+    - Explore more complex models like Gradient Boosting (XGBoost, LightGBM) or Neural Networks.
 
-    Expand dataset size for better generalization.
+    - Expand dataset size for better generalization.
 
-    Add richer features like brand information, market trends, or user ratings.
+    - Add richer features like brand information, market trends, or user ratings.
 
-Limitations
+## Limitations
 
-    Dataset limited to 2000 samples.
+    - Dataset limited to 2000 samples.
 
-    Model might not generalize well without more diverse and larger datasets.
+    - Model might not generalize well without more diverse and larger datasets.
