@@ -51,28 +51,43 @@ This project aims to predict the price range of mobile devices using machine lea
 5. Clock Speed
 
 **Requirements**
-    Python 3.7+
-    Libraries: pandas, numpy, scikit-learn, matplotlib, seaborn, shap
+
+    - Python 3.7+
+
+    - Libraries: pandas, numpy, scikit-learn, matplotlib, seaborn, shap
 
 **How to Run?**
+
     - Clone the repository
+
     - Install dependencies:
+
         pip install -r requirements.txt
+
     - Update the dataset path inside the notebook
+
     - Run all cells in the Jupyter notebook sequentially
 
 **Conclusion**
+
     - The Ordinal Logistic Regression model achieved the highest accuracy of 95%, showcasing strong predictive performance on mobile price ranges.
+
     - RAM was found to be the most influential feature for predicting the mobile price range, followed by Battery Power and Pixel Resolution.
+
     - Feature importance was validated using SHAP values.
 
 **Future Enhancements**
+
     - Explore more complex models like Gradient Boosting (XGBoost, LightGBM) or Neural Networks.
+
     - Expand dataset size for better generalization.
+
     - Add richer features like brand information, market trends, or user ratings.
 
 **Limitations**
+
     - Dataset limited to 2000 samples.
+
     - Model might not generalize well without more diverse and larger datasets.
 
 ## Code Structure
