@@ -51,7 +51,6 @@ This project aims to predict the price range of mobile devices using machine lea
 5. Clock Speed
 
 ## Code Structure
-```bash
 solution.ipynb
 ├── Data Collection & Exploration
 ├── Data Preprocessing
@@ -63,12 +62,10 @@ solution.ipynb
 
 
 ## Requirements
-
-- Python 3.7+
-- Libraries: pandas, numpy, scikit-learn, matplotlib, seaborn, shap
+    - Python 3.7+
+    - Libraries: pandas, numpy, scikit-learn, matplotlib, seaborn, shap
 
 ## How to Run?
-
     - Clone the repository
 
     - Install dependencies:
@@ -81,7 +78,11 @@ solution.ipynb
 
 ## Conclusion
 
-    - The Random Forest model achieved 95% accuracy, demonstrating strong predictive capability for mobile price ranges. RAM was identified as the most significant predictor through SHAP analysis.
+    - The Ordinal Logistic Regression model achieved the highest accuracy of 95%, showcasing strong predictive performance on mobile price ranges.
+
+    - RAM was found to be the most influential feature for predicting the mobile price range, followed by Battery Power and Pixel Resolution.
+
+    - Feature importance was validated using SHAP values.
 
 ## Future Enhancements
 
